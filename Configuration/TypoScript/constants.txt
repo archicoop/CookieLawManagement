@@ -1,0 +1,30 @@
+// Settings
+plugin.tx_aipcookielaw {
+
+    settings{
+        # cat=aipcookielaw/300/1; type=boolean; label=OnOff
+        OnOff = 1
+        # cat=aipcookielaw/300/2; type=options[Opt-in(Explicit),Opt-out(Implicit)]; label= Opt-in Opt-out
+        Opt-inOpt-out = Opt-in(Explicit)
+        # cat=aipcookielaw/300/3; type=boolean; label=Scroll
+        Scroll = 1
+        # cat=aipcookielaw/300/4; type=boolean; label=Click
+        Click = 1
+        # cat=aipcookielaw/300/5; type=int; label=CookieExpire
+        CookieExpire = 30
+        # cat=aipcookielaw/300/6; type=int; label=IdPageInformation
+        IdPageInformation = 0
+        # cat=aipcookielaw/300/7; type=options[dark,light]; label=Style
+        Style = dark
+        # cat=aipcookielaw/300/8; type=options[top,bottom]; label=BannerPosition
+        BannerPosition = top
+        # cat=aipcookielaw/300/90; type=options[bottom-right,bottom-left,vertical-left,vertical-right]; label=TagPosition
+        TagPosition = vertical-left
+        # cat=aipcookielaw/300/91; type=boolean; label=DontShowOnlyWithinEU
+        OnlyShowWithinEU = 1
+        # cat=aipcookielaw/300/9; type=string; label=HttpServiceAPILocation
+        HttpServiceAPILocation = http://api.wipmania.com/jsonp?
+
+    }
+
+}
