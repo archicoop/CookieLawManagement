@@ -290,7 +290,7 @@ var cc =
         "US",//"United States"
         "UY",//"Uruguay"
         "UZ",//"Uzbekistan"
-        "VA", //"Città del Vaticano"
+        "VA",//"Città del Vaticano"
         "VC",//"Saint Vincent e Grenadine"
         "VE",//"Venezuela"
         "VI",//"Isole Vergini Americane"
@@ -313,7 +313,7 @@ var cc =
         tagPosition: 'bottom-right',
         hideprivacysettingstab: 1,
         onlyshowwithineu: 1,
-        httpserviceapilocation:'http://api.wipmania.com/jsonp?',//'http://ip-api.com/json/?'//'http://www.telize.com/geoip?'
+        httpserviceapilocation:'http://api.wipmania.com/jsonp?',
         consenttype: 'explicit',
         confirmClick:1,
         confirmScroll:1,
@@ -743,7 +743,6 @@ var cc =
                 }
             }
         }
-
         cc.allasked = true;
         jQuery.each(cc.cookies, function (key, value) {
             if (cc.approved[key]) {
@@ -764,7 +763,6 @@ var cc =
                 cc.allasked = false;
             }
         });
-
         if (!cc.allasked) {
             if (!cc.checkedlocal) {
                 cc.checklocal();
@@ -853,7 +851,7 @@ var cc =
 
 
     executescriptinclusion: function (cookieType) {
-        timetaken = jQuery('script.cc-onconsent-inline-' + cookieType + '[type="text/plain"]').size() * cc.scriptdelay;
+        timetaken = jQuery('script.cc-onconsent-inline-' + cookieType + '[type="text/plain"]').length * cc.scriptdelay;
         now = new Date().getTime();
         if (now < cc.executionblock) {
             setTimeout(cc.executescriptinclusion, cc.executionblock - now, [cookieType]);
@@ -869,7 +867,7 @@ var cc =
         jQuery('script.cc-onconsent-inline-' + cookieType + '[type="text/plain"]').first().each(function () {
             cc.uniqelemid++;
 
-            if (jQuery(this).parents('body').size() > 0) {
+            if (jQuery(this).parents('body').length  > 0) {
                 jQuery(this).after('<div id="cc-consentarea-' + cc.uniqelemid + '" class="' + cookieType + '"></div>');
                 document.write = function (g) {
                     jQuery('#cc-consentarea-' + cc.uniqelemid).append(g);
@@ -889,7 +887,7 @@ var cc =
 
         });
 
-        if (jQuery('script.cc-onconsent-inline-' + cookieType + '[type="text/plain"]').size() > 0) {
+        if (jQuery('script.cc-onconsent-inline-' + cookieType + '[type="text/plain"]').length > 0) {
             setTimeout(cc.insertscripts, cc.scriptdelay, [cookieType]);
         }
 
@@ -1368,9 +1366,9 @@ var cc =
         var lang = cc.localeLanguage();
         var url = '';
         if (lang != 0)
-            url = 'http://' + window.location.hostname + '/?type=98&L='+lang;
+            url = 'http://' + window.location.hostname + '/?type=10005&L='+lang;
         else
-            url = 'http://' + window.location.hostname + '/?type=98';
+            url = 'http://' + window.location.hostname + '/?type=10005';
 
         jQuery.ajax({
             async: false,
@@ -1383,7 +1381,7 @@ var cc =
                 ajaxResponse = response;
             },
             error: function( req, status, err ) {
-                console.log( 'something went wrong', status, err );
+                console.log( 'something went wrong:', status, err );
                 ajaxResponse = 'error'
             }
         });
@@ -1438,11 +1436,7 @@ var cc =
         else
            return 0;
 
-
-
-
     }
-
 
 }
 
