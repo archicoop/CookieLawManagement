@@ -4,10 +4,10 @@
 
 ---
 conf.py:
-  copyright: 2016
+  copyright: 2017
   project: Cookie Law Management
-  version: 2.0.1
-  release: 2
+  version: 8.7.1
+  release: 6
   intersphinx_mapping:
     t3tsref:
     - http://docs.typo3.org/typo3cms/TyposcriptReference/

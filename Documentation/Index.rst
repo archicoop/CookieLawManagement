@@ -16,7 +16,7 @@ aip\_cookie\_law
       aip\_cookie\_law
 
 :Version:
-      2.0.3
+      8.7.1
 
 :Language:
       en
@@ -28,7 +28,7 @@ aip\_cookie\_law
       aip\_cookie\_law, cookie, eu, analytics, tracking, profiling, jquery, ajax
 
 :Copyright:
-      2016
+      2017
 
 :Author:
       Marcella Greca, Ivano Luberti, Abramo Tesoro
