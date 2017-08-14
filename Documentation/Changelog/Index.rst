@@ -54,3 +54,11 @@ ChangeLog
 
    Changes
          Removed clear body in mobile version
+
+.. container:: table-row
+
+   Version
+         8.7.1
+
+   Changes
+         Upgrade to TYPO3 8.x, upgrade to new userfunc calling, removed deprecated js functions
