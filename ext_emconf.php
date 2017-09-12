@@ -3,7 +3,7 @@
 /***************************************************************
  *  Copyright notice
  *
- *  (c) 2016 Marcella Greca <greca@archicoop.it>, Ivano Luberti <luberti@archicoop.it>, Abramo Tesoro <tesoro@archicoop.it>
+ *  (c) 2017 Marcella Greca <greca@archicoop.it>, Ivano Luberti <luberti@archicoop.it>, Abramo Tesoro <tesoro@archicoop.it>
  *  
  *  All rights reserved
  *
@@ -29,7 +29,7 @@ $EM_CONF[$_EXTKEY] = array (
 	'description' => 'Cookie Law Management is an easy to use plugin that allows to show privacy information, manage website cookies and get consent to install. It is compliant with EU Law and Italian Law (more restricitve).',
     'category' => 'fe',
 	'shy' => 1,
-	'version' => '2.0.3',
+	'version' => '8.7.2',
 	'dependencies' => '',
     'conflicts' => '',
 	'priority' => '',
@@ -49,7 +49,7 @@ $EM_CONF[$_EXTKEY] = array (
 	'constraints' => 
 	array (
 		'depends' => array (
-            'typo3' => '6.0.0-7.6.99',
+            'typo3' => '6.0.0-8.7.99',
 		),
 		'conflicts' => 
 		array (
