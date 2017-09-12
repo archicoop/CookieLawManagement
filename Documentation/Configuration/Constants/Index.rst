@@ -57,6 +57,24 @@ OnOff
          1
 
 
+OnOff Pop-up
+~~~~~~~~~~~~~~~~~
+
+.. container:: table-row
+
+   Property
+        OnOffPopUp
+
+   Data type
+        options
+
+   Description
+        Activate/deactivate the tab to open the privacy pop-up
+        (to activate the privacy pop-up in a menu or anywhere else you can add add the attribute onclick="$('body').prepend(cc.showmodal) to a button or a link)
+   Default
+        1
+
+
 Opt-in Opt-out
 ~~~~~~~~~~~~~~~~~
 
@@ -147,6 +165,24 @@ IdPageInformation
 
    Default
         0
+
+
+CssStyle
+~~~~~~~~~~~~~~~~~
+
+.. container:: table-row
+
+   Property
+        CssStyle
+
+   Data type
+        string
+
+   Description
+        location of the CSS file
+
+   Default
+        EXT:aip_cookie_law/Resources/Public/CSS/CookieLaw.css
 
 
 Style
