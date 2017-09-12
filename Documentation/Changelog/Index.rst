@@ -62,3 +62,12 @@ ChangeLog
 
    Changes
          Upgrade to TYPO3 8.x, upgrade to new userfunc calling, removed deprecated js functions
+
+.. container:: table-row
+
+   Version
+         8.7.2
+
+   Changes
+         Added the typoscript constant to insert a custom css
+         Added the typoscript constant to to turn off the tab for the privacy pop-up
