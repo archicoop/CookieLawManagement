@@ -11,11 +11,13 @@ plugin.tx_aipcookielaw {
         Click = {$plugin.tx_aipcookielaw.settings.Click}
         CookieExpire = {$plugin.tx_aipcookielaw.settings.CookieExpire}
         IdPageInformation = {$plugin.tx_aipcookielaw.settings.IdPageInformation}
+        CssStyle = {$plugin.tx_aipcookielaw.settings.CssStyle}
         Style = {$plugin.tx_aipcookielaw.settings.Style}
         BannerPosition = {$plugin.tx_aipcookielaw.settings.BannerPosition}
         OnlyShowWithinEU = {$plugin.tx_aipcookielaw.settings.OnlyShowWithinEU}
         TagPosition = {$plugin.tx_aipcookielaw.settings.TagPosition}
         OnOff = {$plugin.tx_aipcookielaw.settings.OnOff}
+        OnOffPopUp = {$plugin.tx_aipcookielaw.settings.OnOffPopUp}
         HttpServiceAPILocation = {$plugin.tx_aipcookielaw.settings.HttpServiceAPILocation}
 
     }
@@ -111,6 +113,7 @@ page.wrap(
            onlyshowwithineu: "{$plugin.tx_aipcookielaw.settings.OnlyShowWithinEU}",
            tagPosition: "{$plugin.tx_aipcookielaw.settings.TagPosition}",
            consenttype: "{$plugin.tx_aipcookielaw.settings.Opt-inOpt-out}",
+           hidepopupprivatesettings: "{$plugin.tx_aipcookielaw.settings.OnOffPopUp}",
            hideprivacysettingstab:"{$plugin.tx_aipcookielaw.settings.OnOff}",
            confirmClick: "{$plugin.tx_aipcookielaw.settings.Click}",
            confirmScroll: "{$plugin.tx_aipcookielaw.settings.Scroll}",
@@ -133,7 +136,7 @@ page {
 		cookieInit = EXT:aip_cookie_law/Resources/Public/Javascript/CookieInit.js
 	}
 	includeCSS {
-		cookieLaw = EXT:aip_cookie_law/Resources/Public/CSS/CookieLaw.css
+		cookieLaw < plugin.tx_aipcookielaw.settings.CssStyle
 	}
 
 }

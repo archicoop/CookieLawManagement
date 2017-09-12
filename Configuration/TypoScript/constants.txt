@@ -2,27 +2,31 @@
 plugin.tx_aipcookielaw {
 
     settings{
-        # cat=aipcookielaw/300/1; type=boolean; label=OnOff
+        # cat=aipcookielaw/300/1; type=boolean; label=On/Off
         OnOff = 1
-        # cat=aipcookielaw/300/2; type=options[Opt-in(Explicit),Opt-out(Implicit)]; label= Opt-in Opt-out
+        # cat=aipcookielaw/300/2; type=boolean; label=Tab On/Off Pop-up (add the attribute onclick="$('body').prepend(cc.showmodal) to a button or a link to show the privacy pop-up)
+        OnOffPopUp = 1
+        # cat=aipcookielaw/300/3; type=options[Opt-in(Explicit),Opt-out(Implicit)]; label= Opt-in Opt-out
         Opt-inOpt-out = Opt-in(Explicit)
-        # cat=aipcookielaw/300/3; type=boolean; label=Scroll
+        # cat=aipcookielaw/300/4; type=boolean; label=Scroll
         Scroll = 1
-        # cat=aipcookielaw/300/4; type=boolean; label=Click
+        # cat=aipcookielaw/300/5; type=boolean; label=Click
         Click = 1
-        # cat=aipcookielaw/300/5; type=int; label=CookieExpire
+        # cat=aipcookielaw/300/6; type=int; label=CookieExpire
         CookieExpire = 30
-        # cat=aipcookielaw/300/6; type=int; label=IdPageInformation
+        # cat=aipcookielaw/300/7; type=int; label=IdPageInformation
         IdPageInformation = 0
-        # cat=aipcookielaw/300/7; type=options[dark,light]; label=Style
+        # cat=aipcookielaw/300/8; type=string; label=Path to Css
+        CssStyle = EXT:aip_cookie_law/Resources/Public/CSS/CookieLaw.css
+        # cat=aipcookielaw/300/91; type=options[dark,light]; label=Style
         Style = dark
-        # cat=aipcookielaw/300/8; type=options[top,bottom]; label=BannerPosition
+        # cat=aipcookielaw/300/92; type=options[top,bottom]; label=BannerPosition
         BannerPosition = top
-        # cat=aipcookielaw/300/90; type=options[bottom-right,bottom-left,vertical-left,vertical-right]; label=TagPosition
+        # cat=aipcookielaw/300/93; type=options[bottom-right,bottom-left,vertical-left,vertical-right]; label=TagPosition
         TagPosition = vertical-left
-        # cat=aipcookielaw/300/91; type=boolean; label=DontShowOnlyWithinEU
+        # cat=aipcookielaw/300/94; type=boolean; label=DontShowOnlyWithinEU
         OnlyShowWithinEU = 1
-        # cat=aipcookielaw/300/9; type=string; label=HttpServiceAPILocation
+        # cat=aipcookielaw/300/95; type=string; label=HttpServiceAPILocation
         HttpServiceAPILocation = http://api.wipmania.com/jsonp?
 
     }
