@@ -312,6 +312,7 @@ var cc =
         bannerPosition: "bottom",
         tagPosition: 'bottom-right',
         hideprivacysettingstab: 1,
+        hidepopupprivatesettings: 1,
         onlyshowwithineu: 1,
         httpserviceapilocation:'http://api.wipmania.com/jsonp?',
         consenttype: 'explicit',
@@ -715,6 +716,7 @@ var cc =
                     cc.approved[key] = "yes";
                 });
                 cc.settings.hideprivacysettingstab = 1;
+                cc.settings.hidepopupprivatesettings = 1;
             }
             cc.setcookie('cc_ineu', ineu, cc.settings.cookieExpire);
         }else{
@@ -736,6 +738,10 @@ var cc =
                         cc.approved[key] = "yes";
                     });
                     cc.settings.hideprivacysettingstab = 1;
+                    cc.settings.hidepopupprivatesettings = 1;
+
+
+
                 }
             } else {
                 if (navigator.geolocation) {
@@ -779,8 +785,13 @@ var cc =
                 });
             }
             // visualizzare il banner iniziale
-           if (cc.settings.hideprivacysettingstab == 1){
+           /*if (cc.settings.hideprivacysettingstab == 1){
                 cc.showbanner();
+            }*/
+            if (cc.settings.hideprivacysettingstab == 1){
+                if (cc.settings.hidepopupprivatesettings == 1){
+                    cc.showbanner();
+                }
             }
         } else {
                 cc.showminiconsent();
@@ -1006,11 +1017,13 @@ var cc =
 
     showminiconsent: function () {
         if (jQuery('#cc-tag').length == 0) {
-            data = '<div id="cc-tag" class="cc-tag-' + cc.settings.tagPosition + '"><a class="cc-link" href="#" id="cc-tag-button" title="' + cc.strings.privacySettings + '"><span>' + cc.strings.privacySettings + '</span></a></div>';
+            var data = '<div id="cc-tag" class="cc-tag-' + cc.settings.tagPosition + '"><a class="cc-link" href="#" id="cc-tag-button" title="' + cc.strings.privacySettings + '"><span>' + cc.strings.privacySettings + '</span></a></div>';
             jQuery('body').prepend(data);
             jQuery('#cc-tag').addClass(cc.settings.style);
             if (cc.settings.hideprivacysettingstab == 1) {
-                jQuery('#cc-tag').fadeIn();
+                if (cc.settings.hidepopupprivatesettings == 1){
+                    jQuery('#cc-tag').fadeIn();
+                }
             } else {
                 jQuery('#cc-tag').hide();
             }
@@ -1366,9 +1379,9 @@ var cc =
         var lang = cc.localeLanguage();
         var url = '';
         if (lang != 0)
-            url = 'http://' + window.location.hostname + '/?type=10005&L='+lang;
+            url =  window.location.hostname + '/?type=10005&L='+lang;
         else
-            url = 'http://' + window.location.hostname + '/?type=10005';
+            url =  window.location.hostname + '/?type=10005';
 
         jQuery.ajax({
             async: false,
@@ -1459,7 +1472,6 @@ if (!(window.jQuery)) {
 
 } else {
      jQuery(document).ready(cc.onfirstload);
-
 }
 
 /**

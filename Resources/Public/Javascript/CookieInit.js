@@ -24,6 +24,7 @@
     cc.initialise(compDefault);
  }else{
     cc.initialise(componente);
+
  }
 
 
