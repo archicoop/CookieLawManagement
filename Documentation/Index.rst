@@ -16,7 +16,7 @@ aip\_cookie\_law
       aip\_cookie\_law
 
 :Version:
-      8.7.2
+      8.7.3
 
 :Language:
       en

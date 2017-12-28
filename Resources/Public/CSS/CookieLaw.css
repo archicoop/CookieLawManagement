@@ -1362,7 +1362,7 @@ DARK STYLE
 
 #cc-modal #cc-modal-closebutton a,
 #cc-settingsmodal #cc-settingsmodal-closebutton a {
-	background-image: url("https://s3-eu-west-1.amazonaws.com/assets.cookieconsent.silktide.com/modal-close.png") !important;
+	background-image: url("../Images/modal-close.png") !important;
 	display: block !important;
 	height: 24px !important;
 	position: absolute !important;

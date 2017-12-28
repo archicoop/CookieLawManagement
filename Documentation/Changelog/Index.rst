@@ -71,3 +71,11 @@ ChangeLog
    Changes
          Added the typoscript constant to insert a custom css
          Added the typoscript constant to to turn off the tab for the privacy pop-up
+
+.. container:: table-row
+
+   Version
+         8.7.3
+
+   Changes
+        Update dependencies
