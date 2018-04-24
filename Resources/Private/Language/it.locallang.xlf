@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="it" datatype="plaintext" original="messages" date="2014-12-11T15:33:20Z" product-name="aip_cookie_law">
+		<header/>
+		<body>
+			<trans-unit id="jqueryWarning" xml:space="preserve">
+				<source>Caution! You need to use jQuery 1.4.4 or higher.</source>
+				<target>Attenzione! E' necessario usare un jQuery 1.4.4 o superiore.</target>
+			</trans-unit>
+			<trans-unit id="invalidKeyWarning" xml:space="preserve">
+				<source>Warning! You must provide a valid API.</source>
+                <target>Attenzione! Devi fornire un'API valida.</target>
+			</trans-unit>
+			<trans-unit id="socialDefaultTitle" xml:space="preserve">
+				<source>Social media</source>
+                <target>Cookie di terze parti</target>
+			</trans-unit>
+			<trans-unit id="analyticsDefaultTitle" xml:space="preserve">
+                <source>Analytics</source>
+                <target>Cookie analitici</target>
+            </trans-unit>
+            <trans-unit id="socialDefaultDescription" xml:space="preserve">
+                <source>Facebook, Twitter and other social websites need to know who you are to work properly.</source>
+                <target>Facebook, Twitter e altri siti social hanno bisogno dei cookie attivi per funzionare. Potrebbero utilizzare cookie di profilazione.</target>
+            </trans-unit>
+            <trans-unit id="analyticsDefaultDescription" xml:space="preserve">
+                <source>We anonymously measure your use of this website to improve your experience.</source>
+                <target>Consentono di misurare il traffico del sito e le sue funzionalità senza conservare le informazioni dei singoli utenti. In questo modo si possono testare le strutture delle pagine e migliorare costantemente l'esperienza di utilizzo del sito Web.</target>
+            </trans-unit>
+            <trans-unit id="notificationTitle" xml:space="preserve">
+                <source>Your experience on this site will be improved by allowing cookies.</source>
+                <target>Questo sito utilizza cookie, anche di terze parti, per gestire e migliorare la tua esperienza di navigazione. Cliccando Accetta acconsenti al loro uso. Per maggiori informazioni su come utilizziamo i cookie e su come rimuoverli, consulta la nostra.</target>
+            </trans-unit>
+            <trans-unit id="seeDetails" xml:space="preserve">
+                <source>see details</source>
+                <target>gestione dei cookie</target>
+            </trans-unit>
+            <trans-unit id="seeDetailsImplicit" xml:space="preserve">
+                <source>change your settings</source>
+                <target>gestione dei cookie</target>
+            </trans-unit>
+            <trans-unit id="hideDetails" xml:space="preserve">
+                <source>hide details</source>
+                <target>Nascondi</target>
+            </trans-unit>
+            <trans-unit id="savePreference" xml:space="preserve">
+                <source>Save preference</source>
+                <target>Salva preferenze</target>
+            </trans-unit>
+            <trans-unit id="allowCookies" xml:space="preserve">
+                <source>Allow cookies</source>
+                <target>Accetta</target>
+            </trans-unit>
+            <trans-unit id="allowCookiesImplicit" xml:space="preserve">
+                <source>Close</source>
+                <target>Chiudi</target>
+            </trans-unit>
+            <trans-unit id="privacySettings" xml:space="preserve">
+                <source>Privacy settings</source>
+                <target>Impostazioni Privacy</target>
+            </trans-unit>
+            <trans-unit id="privacySettingsDialogTitleA" xml:space="preserve">
+                <source>Privacy settings</source>
+                <target>Impostazioni dei Cookie</target>
+            </trans-unit>
+            <trans-unit id="privacySettingsDialogSubtitle" xml:space="preserve">
+                <source>Some features of this website need your consent to remember who you are.</source>
+                <target>Di seguito è possibile per l'utente operare una scelta ed indicare specificatamente quali cookie autorizzare.</target>
+            </trans-unit>
+            <trans-unit id="closeWindow" xml:space="preserve">
+                <source>Close window</source>
+                <target>Chiudi</target>
+            </trans-unit>
+            <trans-unit id="preferenceConsent" xml:space="preserve">
+                <source>I consent</source>
+                <target>Consento</target>
+            </trans-unit>
+            <trans-unit id="preferenceDecline" xml:space="preserve">
+                <source>I decline</source>
+                <target>Declino</target>
+            </trans-unit>
+            <trans-unit id="notificationTitleImplicit" xml:space="preserve">
+                <source>We use cookies to ensure you get the best experience on our website</source>
+                <target>Questo sito utilizza cookie, anche di terze parti, per gestire e migliorare la tua esperienza di navigazione. Cliccando Accetta acconsenti al loro uso. Per maggiori informazioni su come utilizziamo i cookie e su come rimuoverli, consulta la nostra</target>
+            </trans-unit>
+            <trans-unit id="informationCookies" xml:space="preserve">
+                <source>Information on Cookies</source>
+                <target>Informazione sui cookie</target>
+            </trans-unit>
+            <trans-unit id="textOff" xml:space="preserve">
+                <source>Player off press cookies</source>
+                <target>Player disattivo accetta i cookie</target>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>
