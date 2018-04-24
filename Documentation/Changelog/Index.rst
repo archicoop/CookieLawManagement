@@ -79,3 +79,11 @@ ChangeLog
 
    Changes
         Update dependencies
+
+.. container:: table-row
+
+   Version
+         8.7.4
+
+   Changes
+        Bug fixing and language management improvements (thanks to Gert-jan Dikkescheij and DonChef660)
