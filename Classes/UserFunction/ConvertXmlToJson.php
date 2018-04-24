@@ -19,46 +19,48 @@ namespace Aip\AipCookieLaw\UserFunction;
          */
         public function getJson($content, $conf) {
 
-            $local_language = '';
-            if ($_GET['L'] != null)
-                $local_language = self::labelLanguage($_GET['L']);
+             if ($_GET['L'] != null)
+                $locallang = self::labelLanguage($_GET['L']);
             else
-                $local_language = $GLOBALS['TSFE']->config['config']['language'];
-            if ($local_language == 'gb' || $local_language == 'england' ||
-                $local_language == 'uk' || $local_language == 'scotland' ||
-                $local_language == 'vg' || $local_language == 'vi' ||
-                $local_language == 'wales' || $local_language == 'scotland' ||
-                $local_language == 'qc' || $local_language == 'fam' ||
-                $local_language == 'eu')
-                $local_language = 'en';
-            if ($local_language == 'catalonia')
-                $local_language = 'es';
+                $locallang = $GLOBALS['TSFE']->config['config']['language'];
 
-            $languageFile = 'locallang_'.$local_language.'.xfl';
+            if (
+                $locallang == 'gb' || $locallang == 'scotland' ||
+                $locallang == 'uk' || $locallang == 'england' ||
+                $locallang == 'vg' || $locallang == 'wales' ||
+                $locallang == 'qc' || $locallang == 'fam' ||
+                $locallang == 'vi' || $locallang == 'eu')
+                $locallang = 'en';
+
+            if ($locallang == 'catalonia')
+                $locallang = 'es';
+
+            $languageFile = 'LLL:EXT:aip_cookie_law/Resources/Private/Language/';
+            $languageFile.= ($locallang == 'en') ? 'locallang.xlf' : $locallang . '.locallang.xlf' ;
 
             $message = array(
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':jqueryWarning'),
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':invalidKeyWarning'),
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':socialDefaultTitle'),
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':analyticsDefaultTitle'),
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':socialDefaultDescription'),
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':analyticsDefaultDescription'),
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':notificationTitle'),
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':seeDetails'),
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':seeDetailsImplicit'),
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':hideDetails'),
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':savePreference'),
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':allowCookies'),
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':allowCookiesImplicit'),
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':privacySettings'),
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':privacySettingsDialogTitleA'),
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':privacySettingsDialogSubtitle'),
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':closeWindow'),
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':preferenceConsent'),
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':preferenceDecline'),
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':notificationTitleImplicit'),
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':informationCookies'),
-                $GLOBALS['TSFE']->sL('LLL:EXT:aip_cookie_law/Resources/Private/Language/'.$languageFile.':textOff')
+                $GLOBALS['TSFE']->sL($languageFile.':jqueryWarning'),
+                $GLOBALS['TSFE']->sL($languageFile.':invalidKeyWarning'),
+                $GLOBALS['TSFE']->sL($languageFile.':socialDefaultTitle'),
+                $GLOBALS['TSFE']->sL($languageFile.':analyticsDefaultTitle'),
+                $GLOBALS['TSFE']->sL($languageFile.':socialDefaultDescription'),
+                $GLOBALS['TSFE']->sL($languageFile.':analyticsDefaultDescription'),
+                $GLOBALS['TSFE']->sL($languageFile.':notificationTitle'),
+                $GLOBALS['TSFE']->sL($languageFile.':seeDetails'),
+                $GLOBALS['TSFE']->sL($languageFile.':seeDetailsImplicit'),
+                $GLOBALS['TSFE']->sL($languageFile.':hideDetails'),
+                $GLOBALS['TSFE']->sL($languageFile.':savePreference'),
+                $GLOBALS['TSFE']->sL($languageFile.':allowCookies'),
+                $GLOBALS['TSFE']->sL($languageFile.':allowCookiesImplicit'),
+                $GLOBALS['TSFE']->sL($languageFile.':privacySettings'),
+                $GLOBALS['TSFE']->sL($languageFile.':privacySettingsDialogTitleA'),
+                $GLOBALS['TSFE']->sL($languageFile.':privacySettingsDialogSubtitle'),
+                $GLOBALS['TSFE']->sL($languageFile.':closeWindow'),
+                $GLOBALS['TSFE']->sL($languageFile.':preferenceConsent'),
+                $GLOBALS['TSFE']->sL($languageFile.':preferenceDecline'),
+                $GLOBALS['TSFE']->sL($languageFile.':notificationTitleImplicit'),
+                $GLOBALS['TSFE']->sL($languageFile.':informationCookies'),
+                $GLOBALS['TSFE']->sL($languageFile.':textOff')
             );
 
             return json_encode($message, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
