@@ -4,7 +4,7 @@
  *  Copyright notice
  *
  *  (c) 2018 Marcella Greca <greca@archicoop.it>, Ivano Luberti <luberti@archicoop.it>, Abramo Tesoro <tesoro@archicoop.it>
- *  
+ *
  *  All rights reserved
  *
  *  This script is part of the TYPO3 project. The TYPO3 project is
@@ -24,40 +24,38 @@
  *  This copyright notice MUST APPEAR in all copies of the script!
  ***************************************************************/
 
-$EM_CONF[$_EXTKEY] = array (
-	'title' => 'Cookie Law Management',
-	'description' => 'Cookie Law Management is an easy to use plugin that allows to show privacy information, manage website cookies and get consent to install. It is compliant with EU Law and Italian Law (more restricitve).',
+$EM_CONF[$_EXTKEY] = [
+    'title' => 'Cookie Law Management',
+    'description' => 'Cookie Law Management is an easy to use plugin that allows to show privacy information, manage website cookies and get consent to install. It is compliant with EU Law and Italian Law (more restricitve).',
     'category' => 'fe',
-	'shy' => 1,
-	'version' => '8.7.4',
-	'dependencies' => '',
+    'shy' => 1,
+    'version' => '8.7.5',
+    'dependencies' => '',
     'conflicts' => '',
-	'priority' => '',
-	'loadOrder' => '',
-	'module' => '',
-	'state' => 'stable',
-	'uploadfolder' => 1,
-	'createDirs' => '',
-	'modify_tables' => '',
-	'clearcacheonload' => 1,
-	'lockType' => '',
+    'priority' => '',
+    'loadOrder' => '',
+    'module' => '',
+    'state' => 'stable',
+    'uploadfolder' => 1,
+    'createDirs' => '',
+    'modify_tables' => '',
+    'clearcacheonload' => 1,
+    'lockType' => '',
     'author' => 'Marcella Greca, Ivano Luberti, Abramo Tesoro',
     'author_email' => 'typo3developers@archicoop.it',
     'author_company' => 'Archimede Informatica - www.archicoop.it',
-	'CGLcompliance' => NULL,
-	'CGLcompliance_note' => NULL,
-	'constraints' => 
-	array (
-		'depends' => array (
-            'typo3' => '8.0.0-8.7.99',
-		),
-		'conflicts' => 
-		array (
-		),
-		'suggests' => 
-		array (
-		),
-	),
-);
-
-?>
+    'CGLcompliance' => NULL,
+    'CGLcompliance_note' => NULL,
+    'constraints'        => [
+        'depends'   => [
+            'typo3' => '8.0.0-8.7.99'
+        ],
+        'conflicts' => [],
+        'suggests'  => []
+    ],
+    'autoload' => [
+        'psr-4' => [
+            'Aip\\AipCookieLaw\\' => 'Classes',
+        ]
+    ],
+];
