@@ -1,6 +1,4 @@
-// Settings
 plugin.tx_aipcookielaw {
-
     settings{
         # cat=aipcookielaw/300/1; type=boolean; label=On/Off
         OnOff = 1
@@ -28,7 +26,5 @@ plugin.tx_aipcookielaw {
         OnlyShowWithinEU = 1
         # cat=aipcookielaw/300/95; type=string; label=HttpServiceAPILocation
         HttpServiceAPILocation = http://api.wipmania.com/jsonp?
-
     }
-
 }
