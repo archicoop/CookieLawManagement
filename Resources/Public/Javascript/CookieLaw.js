@@ -1379,10 +1379,12 @@ var cc =
         var lang = cc.localeLanguage();
         var url = '';
         if (lang != 0)
-            url =  window.location.hostname + '/?type=1525962364&L='+lang;
+            url =  window.location.protocol + '//' + window.location.hostname + '/?type=1525962364&L='+lang;
         else
-            url =  window.location.hostname + '/?type=1525962364';
+            url =  window.location.protocol + '//' + window.location.hostname + '/?type=1525962364';
 
+		
+			
         jQuery.ajax({
             async: false,
             type:'POST',
