@@ -785,16 +785,14 @@ var cc =
                 });
             }
             // visualizzare il banner iniziale
-           /*if (cc.settings.hideprivacysettingstab == 1){
+           if (cc.settings.hideprivacysettingstab == 1){
                 cc.showbanner();
-            }*/
-            if (cc.settings.hideprivacysettingstab == 1){
-                if (cc.settings.hidepopupprivatesettings == 1){
-                    cc.showbanner();
-                }
             }
+
         } else {
+            if (cc.settings.hidepopupprivatesettings == 1) {
                 cc.showminiconsent();
+            }
         }
     },
 

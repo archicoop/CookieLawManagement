@@ -95,3 +95,11 @@ ChangeLog
 
    Changes
         Language management improvements (thanks to Sergio Catalá)
+
+.. container:: table-row
+
+   Version
+         8.7.6
+
+   Changes
+        Bugfixed Tab On/Off functionality
