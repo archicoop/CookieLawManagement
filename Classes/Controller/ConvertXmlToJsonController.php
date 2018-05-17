@@ -7,6 +7,11 @@ use TYPO3\CMS\Extbase\Utility\LocalizationUtility;
 
 class ConvertXmlToJsonController extends ActionController {
 
+    /**
+     * @var string
+     */
+    protected $defaultViewObjectName = 'TYPO3\CMS\Extbase\Mvc\View\JsonView';
+
     public function getJsonAction() {
         $message = [
             LocalizationUtility::translate('jqueryWarning', 'aip_cookie_law'),
@@ -33,6 +38,6 @@ class ConvertXmlToJsonController extends ActionController {
             LocalizationUtility::translate('textOff', 'aip_cookie_law')
         ];
 
-        return json_encode($message, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+        $this->view->assign('value', $message);
     }
 }
