@@ -35,6 +35,7 @@ There are many constants that allow full customization of the extension. You can
    :titlesonly:
    :glob:
 
-   Constants/Index
-   Setup/Index
+   TyposcriptConstants/Index
+   TyposcriptSetup/Index
+   Languages/Index
 

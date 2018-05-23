@@ -103,3 +103,11 @@ ChangeLog
 
    Changes
         Bugfixed Tab On/Off functionality
+
+.. container:: table-row
+
+   Version
+         8.7.7
+
+   Changes
+        Fixed german translation (thanks to Andrea Moroni) and added language configuration instructions
