@@ -111,3 +111,11 @@ ChangeLog
 
    Changes
         Fixed german translation (thanks to Andrea Moroni) and added language configuration instructions
+
+.. container:: table-row
+
+   Version
+         8.7.8
+
+   Changes
+        Bugfixing

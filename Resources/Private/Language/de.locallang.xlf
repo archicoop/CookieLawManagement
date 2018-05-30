@@ -13,7 +13,7 @@
 			</trans-unit>
 			<trans-unit id="socialDefaultTitle" xml:space="preserve">
 				<source>Social media</source>
-                <target>Social media</target>
+                <target>Socialmedia</target>
 			</trans-unit>
 			<trans-unit id="analyticsDefaultTitle" xml:space="preserve">
                 <source>Analytics</source>
@@ -21,7 +21,7 @@
             </trans-unit>
             <trans-unit id="socialDefaultDescription" xml:space="preserve">
                 <source>Facebook, Twitter and other social websites need to know who you are to work properly.</source>
-                <target>Facebook, Twitter und andere soziales netzwerk müssen wissen, wer Sie richtig arbeiten soll.</target>
+                <target>Facebook, Twitter und andere soziale Netzwerke müssen wissen, wer Sie sind um korrekt richtig arbeiten zu können.</target>
             </trans-unit>
             <trans-unit id="analyticsDefaultDescription" xml:space="preserve">
                 <source>We anonymously measure your use of this website to improve your experience.</source>
@@ -29,7 +29,7 @@
             </trans-unit>
             <trans-unit id="notificationTitle" xml:space="preserve">
                 <source>Your experience on this site will be improved by allowing cookies.</source>
-                <target>Durch das Erlauben von Cookies verbessert sich das Erlebnis dieser Webseite</target>
+                <target>Durch das Erlauben von Cookies verbessert sich das Erlebnis dieser Webseite.</target>
             </trans-unit>
             <trans-unit id="seeDetails" xml:space="preserve">
                 <source>see details</source>
@@ -81,15 +81,15 @@
             </trans-unit>
             <trans-unit id="notificationTitleImplicit" xml:space="preserve">
                 <source>We use cookies to ensure you get the best experience on our website</source>
-                <target>Questo sito utilizza cookie, anche di terze parti, per gestire e migliorare la tua esperienza di navigazione. Cliccando Accetta acconsenti al loro uso. Per maggiori informazioni su come utilizziamo i cookie e su come rimuoverli, consulta la nostra</target>
+                <target>Wir verwenden Cookies, um sicherzustellen, dass Sie die beste Erfahrung auf unserer Website erhalten</target>
             </trans-unit>
             <trans-unit id="informationCookies" xml:space="preserve">
                 <source>Information on Cookies</source>
-                <target>Informazione sui cookie</target>
+                <target>Informationen über Cookies</target>
             </trans-unit>
             <trans-unit id="textOff" xml:space="preserve">
                 <source>Player off press cookies</source>
-                <target>Player disattivo accetta i cookie</target>
+                <target>Player deaktiviert, bitte Cookies akzeptieren</target>
             </trans-unit>
 		</body>
 	</file>

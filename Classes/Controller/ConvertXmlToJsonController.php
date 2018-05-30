@@ -33,6 +33,6 @@ class ConvertXmlToJsonController extends ActionController {
             LocalizationUtility::translate('textOff', 'aip_cookie_law')
         ];
 
-		$this->view->assign('value', $message);
+        return json_encode($message, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
     }
 }
