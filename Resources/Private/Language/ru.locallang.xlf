@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" target-language="ru" datatype="plaintext" original="messages" date="2018-08-08T15:33:20Z" product-name="aip_cookie_law">
+  <header/>
+  <body>
+   <trans-unit id="jqueryWarning" xml:space="preserve">
+    <source>Caution! You need to use jQuery 1.4.4 or higher.</source>
+    <target>Осторожно! Необходимо использовать jQuery 1.4.4 или новее.</target>
+   </trans-unit>
+   <trans-unit id="invalidKeyWarning" xml:space="preserve">
+    <source>Warning! You must provide a valid API.</source>
+    <target>Внимание! Вы должны предоставить действительный API.</target>
+   </trans-unit>
+   <trans-unit id="socialDefaultTitle" xml:space="preserve">
+    <source>Social media</source>
+    <target>Социальная сеть</target>
+   </trans-unit>
+   <trans-unit id="analyticsDefaultTitle" xml:space="preserve">
+    <source>Analytics</source>
+    <target>Аналитика</target>
+   </trans-unit>
+   <trans-unit id="socialDefaultDescription" xml:space="preserve">
+    <source>Youtube, Facebook and other social websites need cookies in order to work properly.</source>
+    <target>Facebook, Twitter и другим социальным сетям требуется информация о Вас для обеспечения надлежащей работы.</target>
+   </trans-unit>
+   <trans-unit id="analyticsDefaultDescription" xml:space="preserve">
+    <source>We anonymously measure your use of this website to improve your experience.</source>
+    <target>Мы анонимно измеряем использование Вами данного веб-сайта, чтобы сделать его посещение наиболее удобным.</target>
+   </trans-unit>
+   <trans-unit id="notificationTitle" xml:space="preserve">
+    <source>Your experience on this site will be improved by allowing cookies.</source>
+    <target>Можно повысить удобство использования данного веб-сайта, разрешив выполнение файлов cookie.</target>
+   </trans-unit>
+   <trans-unit id="seeDetails" xml:space="preserve">
+    <source>see details</source>
+    <target>см. подробности</target>
+   </trans-unit>
+   <trans-unit id="seeDetailsImplicit" xml:space="preserve">
+    <source>change your settings</source>
+    <target>измените Ваши настройки</target>
+   </trans-unit>
+   <trans-unit id="hideDetails" xml:space="preserve">
+    <source>hide details</source>
+    <target>скрыть подробности</target>
+   </trans-unit>
+   <trans-unit id="savePreference" xml:space="preserve">
+    <source>Save preference</source>
+    <target>Сохранить предпочтения</target>
+   </trans-unit>
+   <trans-unit id="allowCookies" xml:space="preserve">
+    <source>Allow cookies</source>
+    <target>Разрешить cookie</target>
+   </trans-unit>
+   <trans-unit id="allowCookiesImplicit" xml:space="preserve">
+    <source>Close</source>
+    <target>Закрыть</target>
+   </trans-unit>
+   <trans-unit id="privacySettings" xml:space="preserve">
+    <source>Privacy settings</source>
+    <target>Настройки конфиденциальности</target>
+   </trans-unit>
+   <trans-unit id="privacySettingsDialogTitleA" xml:space="preserve">
+    <source>Privacy settings</source>
+    <target>Настройки конфиденциальности</target>
+   </trans-unit>
+   <trans-unit id="privacySettingsDialogSubtitle" xml:space="preserve">
+    <source>Some features of this website need your consent to remember who you are.</source>
+    <target>Для использования некоторых функций данного веб-сайта требуется Ваше согласие, чтобы запомнить Вас как пользователя.</target>
+   </trans-unit>
+   <trans-unit id="closeWindow" xml:space="preserve">
+    <source>Close window</source>
+    <target>Закрыть окно</target>
+   </trans-unit>
+   <trans-unit id="preferenceConsent" xml:space="preserve">
+    <source>I consent</source>
+    <target>Я согласен</target>
+   </trans-unit>
+   <trans-unit id="preferenceDecline" xml:space="preserve">
+    <source>I decline</source>
+    <target>Я отказываюсь</target>
+   </trans-unit>
+   <trans-unit id="notificationTitleImplicit" xml:space="preserve">
+    <source>We use cookies to ensure you get the best experience on our website</source>
+    <target>Мы используем файлы cookie, чтобы сделать использование Вами нашего веб-сайта наиболее комфортным</target>
+   </trans-unit>
+   <trans-unit id="informationCookies" xml:space="preserve">
+    <source>Information on Cookies</source>
+    <target>Информация по файлам cookie</target>
+   </trans-unit>
+   <trans-unit id="textOff" xml:space="preserve">
+    <source>Allow cookies to enable player</source>
+    <target>Разрешить cookie, чтобы активировать игрока</target>
+   </trans-unit>
+  </body>
+ </file>
+</xliff>
