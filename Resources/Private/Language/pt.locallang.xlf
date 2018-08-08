@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" target-language="pt" datatype="plaintext" original="messages" date="2018-08-08T15:33:20Z" product-name="aip_cookie_law">
+  <header/>
+  <body>
+   <trans-unit id="jqueryWarning" xml:space="preserve">
+    <source>Caution! You need to use jQuery 1.4.4 or higher.</source>
+    <target>Cuidado! Você precisa usar o jQuery 1.4.4 ou superior.</target>
+   </trans-unit>
+   <trans-unit id="invalidKeyWarning" xml:space="preserve">
+    <source>Warning! You must provide a valid API.</source>
+    <target>Advertência! Você deve fornecer um API válido.</target>
+   </trans-unit>
+   <trans-unit id="socialDefaultTitle" xml:space="preserve">
+    <source>Social media</source>
+    <target>Mídia social</target>
+   </trans-unit>
+   <trans-unit id="analyticsDefaultTitle" xml:space="preserve">
+    <source>Analytics</source>
+    <target>Cookies analíticos</target>
+   </trans-unit>
+   <trans-unit id="socialDefaultDescription" xml:space="preserve">
+    <source>Youtube, Facebook and other social websites need cookies in order to work properly.</source>
+    <target>Facebook, Twitter e outras páginas de mídia social precisam saber quem você é para que funcionem corretamente.</target>
+   </trans-unit>
+   <trans-unit id="analyticsDefaultDescription" xml:space="preserve">
+    <source>We anonymously measure your use of this website to improve your experience.</source>
+    <target>Nós analisamos o seu uso deste site anonimamente para melhorar a sua experiência.</target>
+   </trans-unit>
+   <trans-unit id="notificationTitle" xml:space="preserve">
+    <source>Your experience on this site will be improved by allowing cookies.</source>
+    <target>A sua experiência nesse site será melhorada através da autorização de cookies.</target>
+   </trans-unit>
+   <trans-unit id="seeDetails" xml:space="preserve">
+    <source>see details</source>
+    <target>veja detalhes</target>
+   </trans-unit>
+   <trans-unit id="seeDetailsImplicit" xml:space="preserve">
+    <source>change your settings</source>
+    <target>altere a suas configurações</target>
+   </trans-unit>
+   <trans-unit id="hideDetails" xml:space="preserve">
+    <source>hide details</source>
+    <target>ocultar detalhes</target>
+   </trans-unit>
+   <trans-unit id="savePreference" xml:space="preserve">
+    <source>Save preference</source>
+    <target>Salvar preferências</target>
+   </trans-unit>
+   <trans-unit id="allowCookies" xml:space="preserve">
+    <source>Allow cookies</source>
+    <target>Permitir cookies</target>
+   </trans-unit>
+   <trans-unit id="allowCookiesImplicit" xml:space="preserve">
+    <source>Close</source>
+    <target>Fechar</target>
+   </trans-unit>
+   <trans-unit id="privacySettings" xml:space="preserve">
+    <source>Privacy settings</source>
+    <target>Configurações de privacidade</target>
+   </trans-unit>
+   <trans-unit id="privacySettingsDialogTitleA" xml:space="preserve">
+    <source>Privacy settings</source>
+    <target>Configurações de privacidade</target>
+   </trans-unit>
+   <trans-unit id="privacySettingsDialogSubtitle" xml:space="preserve">
+    <source>Some features of this website need your consent to remember who you are.</source>
+    <target>Alguns recursos deste site precisam do seu consentimento para se lembrarem de você.</target>
+   </trans-unit>
+   <trans-unit id="closeWindow" xml:space="preserve">
+    <source>Close window</source>
+    <target>Fechar janela</target>
+   </trans-unit>
+   <trans-unit id="preferenceConsent" xml:space="preserve">
+    <source>I consent</source>
+    <target>I aceito</target>
+   </trans-unit>
+   <trans-unit id="preferenceDecline" xml:space="preserve">
+    <source>I decline</source>
+    <target>Eu não aceito</target>
+   </trans-unit>
+   <trans-unit id="notificationTitleImplicit" xml:space="preserve">
+    <source>We use cookies to ensure you get the best experience on our website</source>
+    <target>Nós utilizamos cookies para garantir que você tenha uma ótima experiência no nosso site</target>
+   </trans-unit>
+   <trans-unit id="informationCookies" xml:space="preserve">
+    <source>Information on Cookies</source>
+    <target>Informações sobre cookies</target>
+   </trans-unit>
+   <trans-unit id="textOff" xml:space="preserve">
+    <source>Allow cookies to enable player</source>
+    <target>Permitir que os cookies habilitem o player</target>
+   </trans-unit>
+  </body>
+ </file>
+</xliff>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" target-language="cn" datatype="plaintext" original="messages" date="2018-08-08T15:33:20Z" product-name="aip_cookie_law">
+  <header/>
+  <body>
+   <trans-unit id="jqueryWarning" xml:space="preserve">
+    <source>Caution! You need to use jQuery 1.4.4 or higher.</source>
+    <target>注意！您需要使用jQuery 1.4.4或更高版本。</target>
+   </trans-unit>
+   <trans-unit id="invalidKeyWarning" xml:space="preserve">
+    <source>Warning! You must provide a valid API.</source>
+    <target>提示！您必须提供有效的API。</target>
+   </trans-unit>
+   <trans-unit id="socialDefaultTitle" xml:space="preserve">
+    <source>Social media</source>
+    <target>社交媒体</target>
+   </trans-unit>
+   <trans-unit id="analyticsDefaultTitle" xml:space="preserve">
+    <source>Analytics</source>
+    <target>分析</target>
+   </trans-unit>
+   <trans-unit id="socialDefaultDescription" xml:space="preserve">
+    <source>Youtube, Facebook and other social websites need cookies in order to work properly.</source>
+    <target>脸书,Twitter 以及其他的社交网站需要插件才能正常使用</target>
+   </trans-unit>
+   <trans-unit id="analyticsDefaultDescription" xml:space="preserve">
+    <source>We anonymously measure your use of this website to improve your experience.</source>
+    <target>我们匿名衡量您对本网站的使用，以改善您的用户体验。</target>
+   </trans-unit>
+   <trans-unit id="notificationTitle" xml:space="preserve">
+    <source>Your experience on this site will be improved by allowing cookies.</source>
+    <target>通过允许cookie会优化您的网站体验。</target>
+   </trans-unit>
+   <trans-unit id="seeDetails" xml:space="preserve">
+    <source>see details</source>
+    <target>查看细节</target>
+   </trans-unit>
+   <trans-unit id="seeDetailsImplicit" xml:space="preserve">
+    <source>change your settings</source>
+    <target>更改您的设置</target>
+   </trans-unit>
+   <trans-unit id="hideDetails" xml:space="preserve">
+    <source>hide details</source>
+    <target>隐藏细节</target>
+   </trans-unit>
+   <trans-unit id="savePreference" xml:space="preserve">
+    <source>Save preference</source>
+    <target>保存偏好</target>
+   </trans-unit>
+   <trans-unit id="allowCookies" xml:space="preserve">
+    <source>Allow cookies</source>
+    <target>允许插件</target>
+   </trans-unit>
+   <trans-unit id="allowCookiesImplicit" xml:space="preserve">
+    <source>Close</source>
+    <target>关闭</target>
+   </trans-unit>
+   <trans-unit id="privacySettings" xml:space="preserve">
+    <source>Privacy settings</source>
+    <target>隐私设置</target>
+   </trans-unit>
+   <trans-unit id="privacySettingsDialogTitleA" xml:space="preserve">
+    <source>Privacy settings</source>
+    <target>隐私设置</target>
+   </trans-unit>
+   <trans-unit id="privacySettingsDialogSubtitle" xml:space="preserve">
+    <source>Some features of this website need your consent to remember who you are.</source>
+    <target>本网站的某些功能需要您的同意才能记住您的身份。</target>
+   </trans-unit>
+   <trans-unit id="closeWindow" xml:space="preserve">
+    <source>Close window</source>
+    <target>关闭窗口</target>
+   </trans-unit>
+   <trans-unit id="preferenceConsent" xml:space="preserve">
+    <source>I consent</source>
+    <target>我同意</target>
+   </trans-unit>
+   <trans-unit id="preferenceDecline" xml:space="preserve">
+    <source>I decline</source>
+    <target>我拒绝</target>
+   </trans-unit>
+   <trans-unit id="notificationTitleImplicit" xml:space="preserve">
+    <source>We use cookies to ensure you get the best experience on our website</source>
+    <target>我们使用cookies来确保您在我们的网站上获得最佳体验</target>
+   </trans-unit>
+   <trans-unit id="informationCookies" xml:space="preserve">
+    <source>Information on Cookies</source>
+    <target>插件信息</target>
+   </trans-unit>
+   <trans-unit id="textOff" xml:space="preserve">
+    <source>Allow cookies to enable player</source>
+    <target>允许播放器插件</target>
+   </trans-unit>
+  </body>
+ </file>
+</xliff>
