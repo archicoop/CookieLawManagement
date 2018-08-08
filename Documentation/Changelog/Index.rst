@@ -86,7 +86,7 @@ ChangeLog
          8.7.4
 
    Changes
-        Bug fixing and language management improvements (thanks to Gert-jan Dikkescheij and DonChef660)
+        Bug fixing and language management improvements (thanks to Gert-jan Dikkescheij and Fehmi Raqipi)
 
 .. container:: table-row
 
@@ -119,3 +119,15 @@ ChangeLog
 
    Changes
         Bugfixing
+
+.. container:: table-row
+
+   Version
+         8.7.9
+
+   Changes
+        Added translations in French, Spanish, Portuguese, Russian and Chinese
+        Corrections in English and German
+        (thanks to Roman Abt)
+        Removed external resources
+

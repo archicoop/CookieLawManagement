@@ -20,8 +20,8 @@
                 <target>Cookie analitici</target>
             </trans-unit>
             <trans-unit id="socialDefaultDescription" xml:space="preserve">
-                <source>Facebook, Twitter and other social websites need to know who you are to work properly.</source>
-                <target>Facebook, Twitter e altri siti social hanno bisogno dei cookie attivi per funzionare. Potrebbero utilizzare cookie di profilazione.</target>
+                <source>Youtube, Facebook and other social websites need cookies in order to work properly.</source>
+                <target>Youtube, Facebook e altri siti social hanno bisogno dei cookie attivi per funzionare. Potrebbero utilizzare cookie di profilazione.</target>
             </trans-unit>
             <trans-unit id="analyticsDefaultDescription" xml:space="preserve">
                 <source>We anonymously measure your use of this website to improve your experience.</source>
@@ -88,8 +88,8 @@
                 <target>Informazione sui cookie</target>
             </trans-unit>
             <trans-unit id="textOff" xml:space="preserve">
-                <source>Player off press cookies</source>
-                <target>Player disattivo accetta i cookie</target>
+                <source>Allow cookies to enable player</source>
+                <target>Accetta i cookies per attivare il player</target>
             </trans-unit>
 		</body>
 	</file>

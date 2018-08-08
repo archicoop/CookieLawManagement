@@ -88,7 +88,7 @@
                 <target>Informationen über Cookies</target>
             </trans-unit>
             <trans-unit id="textOff" xml:space="preserve">
-                <source>Player off press cookies</source>
+                <source>Allow cookies to enable player</source>
                 <target>Player deaktiviert, bitte Cookies akzeptieren</target>
             </trans-unit>
 		</body>

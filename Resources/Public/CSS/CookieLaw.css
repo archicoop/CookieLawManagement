@@ -26,7 +26,7 @@ CORE STYLES
 	position: absolute !important;
 	top: 2px !important;
 	right: 2px !important;
-	background-image: url(https://s3-eu-west-1.amazonaws.com/assets.cookieconsent.silktide.com/cross.png) !important;
+	background-image: url('../Images/modal-close.png') !important;
 }
 
 #cc-modal #cc-modal-closebutton a span,
@@ -187,7 +187,6 @@ CORE STYLES
 }
 
 #cc-modal a#footerlogo span {
-	background: url("https://s3-eu-west-1.amazonaws.com/assets.cookieconsent.silktide.com/silktide-logo.png") no-repeat scroll 0 0 transparent !important;
 	display: block;
 	height: 31px !important;
 	margin-top: 4px !important;
@@ -242,7 +241,6 @@ CORE STYLES
 #cc-modal .cc-logo,
 #cc-settingsmodal .cc-logo
 {
-	background-image: url(https://s3-eu-west-1.amazonaws.com/assets.cookieconsent.silktide.com/cookie-consent-logo.png);
 	width: 142px;
 	height: 32px;
 	position: absolute;
@@ -976,7 +974,6 @@ DARK STYLE
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
 	font-size: 12pt !important;
 	background-color: #1d1d1d !important;
-	/*background-image: url(http://assets.cookieconsent.silktide.com/cookie-consent-box.png);*/
 	background-repeat: no-repeat;
 	background-position: 6px 7px;
 	color: #F5F5F5 !important;
@@ -1242,7 +1239,6 @@ DARK STYLE
 	position: relative !important;
 	overflow-x: hidden;
 	max-height: 560px;
-	background-image: url(https://s3-eu-west-1.amazonaws.com/assets.cookieconsent.silktide.com/globe.png);
 	background-position: -20px 20px;
 	background-repeat: no-repeat;
 	box-shadow:0px 0px 30px #000;

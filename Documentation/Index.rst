@@ -16,7 +16,7 @@ aip\_cookie\_law
       aip\_cookie\_law
 
 :Version:
-      8.7.8
+      8.7.9
 
 :Language:
       en
@@ -32,6 +32,9 @@ aip\_cookie\_law
 
 :Author:
       Marcella Greca, Ivano Luberti, Abramo Tesoro
+
+:Contributors:
+      Sergio Catalá, Gert-jan Dikkescheij, Andrea Moroni, Fehmi Raqipi
 
 :License:
       Open Content License available from `www.opencontent.org/opl.shtml

@@ -21,7 +21,7 @@
    </trans-unit>
    <trans-unit id="socialDefaultDescription" xml:space="preserve">
     <source>Youtube, Facebook and other social websites need cookies in order to work properly.</source>
-    <target>Facebook, Twitter и другим социальным сетям требуется информация о Вас для обеспечения надлежащей работы.</target>
+    <target>Youtube, Facebook и другим социальным сетям требуется информация о Вас для обеспечения надлежащей работы.</target>
    </trans-unit>
    <trans-unit id="analyticsDefaultDescription" xml:space="preserve">
     <source>We anonymously measure your use of this website to improve your experience.</source>
