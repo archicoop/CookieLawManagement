@@ -29,7 +29,7 @@ $EM_CONF[$_EXTKEY] = [
     'description' => 'Cookie Law Management is an easy to use plugin that allows to show privacy information, manage website cookies and get consent to install. It is compliant with EU Law and Italian Law (more restricitve).',
     'category' => 'fe',
     'shy' => 1,
-    'version' => '8.7.9',
+    'version' => '9.5.0',
     'dependencies' => '',
     'conflicts' => '',
     'priority' => '',
@@ -48,7 +48,7 @@ $EM_CONF[$_EXTKEY] = [
     'CGLcompliance_note' => NULL,
     'constraints'        => [
         'depends'   => [
-            'typo3' => '7.6.0-8.7.99'
+            'typo3' => '9.5.0-9.5.99'
         ],
         'conflicts' => [],
         'suggests'  => []

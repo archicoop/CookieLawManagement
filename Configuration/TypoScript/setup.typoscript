@@ -23,10 +23,15 @@ plugin.tx_aipcookielaw {
 page.meta.aip_cookielaw_language.cObject = COA
 page.meta.aip_cookielaw_language.cObject {
     20 = TEXT
-    20.data = GP:L
+    20.data = sitelanguage:base
+    20.wrap = |
 }
 
+
+
+
 ###  If constant OnOff is Off (0) don't turn on the regural expression which deactivate cookie installation ###
+### TODO:[{$plugin.tx_aipcookielaw.settings.OnOff} == "1"] nuovo modo di fare la condition in TYPO3 9 ###
 [globalVar = LIT:1 = {$plugin.tx_aipcookielaw.settings.OnOff}]
     page.stdWrap.replacement {
 
@@ -141,7 +146,7 @@ ajaxLanguageJson = PAGE
 ajaxLanguageJson {
     typeNum = 1525962364
     config {
-        disableAllHeaderCode = 1
+       disableAllHeaderCode = 1
         debug = 0
         no_cache = 1
         additionalHeaders {
@@ -157,3 +162,4 @@ ajaxLanguageJson {
     }
     10 < tt_content.list.20.aipcookielaw_cookielaw
 }
+

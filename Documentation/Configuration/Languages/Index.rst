@@ -11,7 +11,9 @@
 Languages
 ^^^^^^^^^
 
-The extension works with the standard localization system, so you have only to configure properly your language in your typoscript setup using something like this:
+The extension works with the standard localization system, the configuration therefore depends on the TYPO3 version you are using.
+
+Up to TYPO3 8 you have to configure properly your language in your typoscript setup using something like this:
 
 config {
       sys_language_uid = 0
@@ -43,3 +45,5 @@ ajaxLanguageJson {
        }
    10 < tt_content.list.20.aipcookielaw_cookielaw
 }
+
+Starting from TYPO3 9 you only need to configure the Sites module in your backend, making sure to define the entry point which is the 'base' property in the config.yaml file inside the folder typo3conf/sites/yoursite/ .

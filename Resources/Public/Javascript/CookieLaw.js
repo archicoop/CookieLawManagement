@@ -1377,7 +1377,7 @@ var cc =
         var lang = cc.localeLanguage();
         var url = '';
         if (lang != 0)
-            url =  window.location.protocol + '//' + window.location.hostname + '/?type=1525962364&L='+lang;
+            url =  window.location.protocol + '//' + window.location.hostname + lang + '?type=1525962364';
         else
             url =  window.location.protocol + '//' + window.location.hostname + '/?type=1525962364';
 

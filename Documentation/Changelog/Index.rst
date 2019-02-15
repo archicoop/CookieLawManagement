@@ -131,3 +131,11 @@ ChangeLog
         (thanks to Roman Abt)
         Removed external resources
 
+
+.. container:: table-row
+
+   Version
+         9.5.0
+
+   Changes
+         Upgrade to TYPO3 9.x
