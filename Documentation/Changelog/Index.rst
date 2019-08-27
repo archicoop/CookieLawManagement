@@ -139,3 +139,12 @@ ChangeLog
 
    Changes
          Upgrade to TYPO3 9.x
+
+
+.. container:: table-row
+
+   Version
+         9.5.1
+
+   Changes
+         BugFixing Localization
