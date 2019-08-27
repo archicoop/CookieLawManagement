@@ -1376,10 +1376,11 @@ var cc =
         var objectLanguage = '';
         var lang = cc.localeLanguage();
         var url = '';
-        if (lang != 0)
-            url =  window.location.protocol + '//' + window.location.hostname + lang + '?type=1525962364';
-        else
+        if (lang != 0) {
+            url = lang+'/?type=1525962364';
+        }else{
             url =  window.location.protocol + '//' + window.location.hostname + '/?type=1525962364';
+        }
 
 		
 			
