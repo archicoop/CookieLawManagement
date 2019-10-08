@@ -81,7 +81,7 @@ Opt-in Opt-out
 .. container:: table-row
 
    Property
-        Opt-in Opt-out
+        Opt-inOpt-out
 
    Data type
         options
@@ -147,6 +147,42 @@ CookieExpire
 
    Default
         30
+
+
+Tracking ID (Google Analytics)
+~~~~~~~~~~~~~~~~~
+
+.. container:: table-row
+
+   Property
+        GATrackingId
+
+   Data type
+        string
+
+   Description
+        The Google Analytics Tracking ID (similar to UA-000000-2 )
+
+   Default
+        0
+
+
+Anonymize IP (Google Analytics)
+~~~~~~~~~~~~~~~~~
+
+.. container:: table-row
+
+   Property
+        GAAnonymizeIp
+
+   Data type
+        boolean
+
+   Description
+        Configure the extension so that it anonymizes the IP address
+
+   Default
+        0
 
 
 IdPageInformation

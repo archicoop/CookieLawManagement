@@ -148,3 +148,12 @@ ChangeLog
 
    Changes
          BugFixing Localization
+
+
+.. container:: table-row
+
+   Version
+         9.5.2
+
+   Changes
+         Added Google Analytics Management

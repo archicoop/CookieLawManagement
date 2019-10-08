@@ -6,6 +6,7 @@ plugin.tx_aipcookielaw {
         Click = {$plugin.tx_aipcookielaw.settings.Click}
         CookieExpire = {$plugin.tx_aipcookielaw.settings.CookieExpire}
         IdPageInformation = {$plugin.tx_aipcookielaw.settings.IdPageInformation}
+        GATrackingId = {$plugin.tx_aipcookielaw.settings.GATrackingId}
         CssStyle = {$plugin.tx_aipcookielaw.settings.CssStyle}
         Style = {$plugin.tx_aipcookielaw.settings.Style}
         BannerPosition = {$plugin.tx_aipcookielaw.settings.BannerPosition}
@@ -14,10 +15,8 @@ plugin.tx_aipcookielaw {
         OnOff = {$plugin.tx_aipcookielaw.settings.OnOff}
         OnOffPopUp = {$plugin.tx_aipcookielaw.settings.OnOffPopUp}
         HttpServiceAPILocation = {$plugin.tx_aipcookielaw.settings.HttpServiceAPILocation}
-
     }
 }
-
 
 # insert language parameter
 page.meta.aip_cookielaw_language.cObject = COA
@@ -26,9 +25,6 @@ page.meta.aip_cookielaw_language.cObject {
     20.data = sitelanguage:base
     20.wrap = |
 }
-
-
-
 
 ###  If constant OnOff is Off (0) don't turn on the regural expression which deactivate cookie installation ###
 ### TODO:[{$plugin.tx_aipcookielaw.settings.OnOff} == "1"] nuovo modo di fare la condition in TYPO3 9 ###
@@ -141,6 +137,41 @@ page.meta.aip_cookielaw_language.cObject {
     }
     // Remove the header
 [end]
+
+[globalVar = LIT:0 = {$plugin.tx_aipcookielaw.settings.GATrackingId}]
+[else]
+    page.headerData.9000 = COA
+    page.headerData.9000 {
+        10 = TEXT
+        10 {
+            value = {$plugin.tx_aipcookielaw.settings.GATrackingId}
+            wrap = <!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=|"></script><script>
+        }
+        30 = TEXT
+        30 {
+            value = window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}wrap = gtag('js', new Date());
+        }
+        40 = TEXT
+        40 {
+            value = {$plugin.tx_aipcookielaw.settings.GATrackingId}
+            wrap = gtag('config', '|');</script>
+        }
+    }
+[end]
+
+[globalVar = LIT:1 = {$plugin.tx_aipcookielaw.settings.GAAnonymizeIp}]
+    page.headerData.9000.40.wrap = gtag('config', '|' {'anonymize_ip': true });</script>
+[end]
+
+[globalVar = LIT:0 = {$plugin.tx_aipcookielaw.settings.GATrackingId}] || [globalVar = _COOKIE|cc_analytics = yes] || [globalVar = LIT:0 = {$plugin.tx_aipcookielaw.settings.OnOff}]
+[else]
+    page.headerData.9000.20 = TEXT
+    page.headerData.9000.20 {
+    value = {$plugin.tx_aipcookielaw.settings.GATrackingId}
+    wrap = window['ga-disable-|'] = true;
+    }
+[end]
+
 
 ajaxLanguageJson = PAGE
 ajaxLanguageJson {

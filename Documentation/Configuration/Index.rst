@@ -27,7 +27,10 @@ In order to use "Cookie Law Management" you necessary need to configure the page
 
 #. Go to the constant IdPageInformation (the sixth from the top) and set the UID of the page which contains the cookie policy.
 
-There are many constants that allow full customization of the extension. You can find the complete list in the following section.
+This extension manages the Google Analytics snippet by itself adding it in the <head> of the page as described here https://developers.google.com/analytics/devguides/collection/gtagjs.
+To use it you must not insert the snippet in your template, you only need to fullfill the Tracking Id constant of the extension and choose whether you want to use the IP anonymizazion by setting the GAAnonymizeIp typoscript constant to true (default is false).
+
+There are many other constants that allow full customization of the extension. You can find the complete list in the following section.
 
 
 .. toctree::

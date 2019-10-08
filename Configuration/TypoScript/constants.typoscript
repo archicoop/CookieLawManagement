@@ -14,6 +14,10 @@ plugin.tx_aipcookielaw {
         CookieExpire = 30
         # cat=aipcookielaw/300/7; type=int; label=IdPageInformation
         IdPageInformation = 0
+        # cat=aipcookielaw/300/75; type=string; label=Tracking ID (Google Analytics)
+        GATrackingId = 0
+        # cat=aipcookielaw/300/78; type=boolean; label=Anonymize IP (Google Analytics)
+        GAAnonymizeIp = 0
         # cat=aipcookielaw/300/8; type=string; label=Path to Css
         CssStyle = EXT:aip_cookie_law/Resources/Public/CSS/CookieLaw.css
         # cat=aipcookielaw/300/91; type=options[dark,light]; label=Style
