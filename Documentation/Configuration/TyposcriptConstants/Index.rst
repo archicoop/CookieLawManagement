@@ -203,6 +203,42 @@ IdPageInformation
         0
 
 
+GATrackingId
+~~~~~~~~~~~~~~~~~
+
+.. container:: table-row
+
+   Property
+        GATrackingId
+
+   Data type
+        string
+
+   Description
+         Google Analytics ID, if you set this constant, the google analytics code will be inserted in the page <head>. Leave it blank if you don't want it
+
+   Default
+        0
+
+
+GAAnonymizeIp
+~~~~~~~~~~~~~~~~~
+
+.. container:: table-row
+
+   Property
+        GAAnonymizeIp
+
+   Data type
+        boolean
+
+   Description
+        Configure the IP anonymization of the google analytics code
+
+   Default
+        0
+
+
 CssStyle
 ~~~~~~~~~~~~~~~~~
 
